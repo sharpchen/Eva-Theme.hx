@@ -1,0 +1,3 @@
+[submodule "Eva-Theme.nvim"]
+	path = Eva-Theme.nvim
+	url = git@github.com:sharpchen/Eva-Theme.nvim.git
