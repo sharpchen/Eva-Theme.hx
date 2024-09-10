@@ -36,7 +36,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git commit -m "Automated update and file regeneration" || echo "No changes to commit"
+          git commit -m "chore: update and regenerate files" || echo "No changes to commit"
 
       - name: Push changes
         run: |
