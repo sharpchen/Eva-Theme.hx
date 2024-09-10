@@ -1,5 +1,6 @@
 local colorscheme_path = vim.uv.cwd() .. '/Eva-Theme.nvim/lua/?.lua'
 package.path = package.path .. ';' .. colorscheme_path
+local utils = require('Eva-Theme.utils')
 local function variant_name(variant)
   local function capitalize_first_letter(word)
     return word:sub(1, 1):upper() .. word:sub(2):lower()
@@ -8,10 +9,44 @@ local function variant_name(variant)
   return 'Eva-' .. result:gsub('_', '-')
 end
 local function helix(h)
-  h:map_token(
-    'operator',
-    'ui.cursorrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr'
-  )
+  h:map_ui('background', 'ui.background')
+    :map_ui('NONE', 'ui.menu.selected', function(palette, _)
+      return {
+        bg = utils.is_dark(palette) and '#2F3F5C' or '#CAD7ED',
+        fg = utils.is_dark(palette) and '#D7DAE0' or '#5D5D5F',
+      }
+    end)
+    :map_ui('NONE', { 'ui.cursorline.primary', 'ui.statusline' }, function(p, _)
+      return { bg = utils.is_dark(p) and '#2F323C' or '#E3E6ED' }
+    end)
+    :map_ui('NONE', 'diagnostic.hint', function(p, _)
+      return { bg = p.inlay_hint.bg, fg = utils.is_dark(p) and '#50567C' or '#C8CACE' }
+    end)
+    :map_ui('NONE', 'diagnostic.info', function(p, _)
+      return { fg = utils.is_dark(p) and '#00b7cb' or '#00c1ea', bg = utils.is_dark(p) and '#233e4b' or '#cde7f3' }
+    end)
+    :map_ui('NONE', 'diagnostic.warning', function(p, _)
+      return { fg = utils.is_dark(p) and '#EF973A' or '#FB942F', bg = utils.is_dark(p) and '#463D3A' or '#E7DBD4' }
+    end)
+    :map_ui('NONE', 'diagnostic.error', function(p, _)
+      return { fg = utils.is_dark(p) and '#F36464' or '#E45454', bg = utils.is_dark(p) and '#3D3037' or '#EBDAE0' }
+    end)
+    :map_ui('NONE', 'diagnostic.unnecessary', function(palette, _)
+      return { fg = utils.is_dark(palette) and '#50567C' or '#C8CACE' }
+    end)
+    :map_ui('NONE', 'ui.selection', function(p, _)
+      return { bg = utils.is_dark(p) and '#394E75' or '#B0CBF7' }
+    end)
+    :map_ui('NONE', 'ui.virtual.inlay-hint', function(palette, _)
+      return {
+        fg = palette.inlay_hint.fg,
+        bg = palette.inlay_hint.bg,
+      }
+    end)
+    :map_ui('NONE', 'ui.linenr', function(palette, _)
+      return { fg = utils.is_dark(palette) and '#50567C' or '#C8CACE' }
+    end)
+    :map_ui('variable', { 'ui.linenr.selected', 'ui.text' })
 end
 
 local Palette = require('Eva-Theme.palette')
@@ -69,7 +104,7 @@ local function convert_toml_obj(t)
     end
     ret = table.concat(ret == '' and { c } or { ret, c }, ', ')
   end
-  return is_primitive_list(t) and ('[%s]'):format(ret) or ('{ %s }'):format(ret)
+  return (is_primitive_list(t) and '[%s]' or '{ %s }'):format(ret)
 end
 for _, theme in pairs(themes) do
   local palette = Palette:from_variant(theme)
