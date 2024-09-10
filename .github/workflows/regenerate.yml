@@ -8,7 +8,7 @@ on:
     - cron: '0 0 * * *'  # This runs the job every day at midnight UTC
 
 jobs:
-  update-submodule:
+  regenerate:
     runs-on: ubuntu-latest
 
     steps:
