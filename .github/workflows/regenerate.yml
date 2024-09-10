@@ -29,8 +29,7 @@ jobs:
 
       - name: Update Submodules
         run: |
-          git submodule sync --recursive
-          git submodule update --init --recursive --force
+          git submodule update --recursive --remote
           git add .
           git commit -m "chore: force update submodule" || echo "No changes to commit"
 
