@@ -8,16 +8,22 @@ local function variant_name(variant)
   local result = variant:gsub('(%a+)', capitalize_first_letter)
   return 'Eva-' .. result:gsub('_', '-')
 end
+
 local function helix(h)
-  h:map_ui('background', 'ui.background')
-    :map_ui('NONE', 'ui.menu.selected', function(palette, _)
+  h:map_ui('background', 'ui.background', function(palette, as)
+    return { bg = palette[as] }
+  end)
+    :map_ui('panelBackground', { 'ui.menu', 'ui.text.info' }, function(palette, as)
+      return { bg = palette[as], fg = palette.variable }
+    end)
+    :map_ui('NONE', { 'ui.menu.selected', 'ui.text.focus' }, function(palette, _)
       return {
         bg = utils.is_dark(palette) and '#2F3F5C' or '#CAD7ED',
         fg = utils.is_dark(palette) and '#D7DAE0' or '#5D5D5F',
       }
     end)
     :map_ui('NONE', { 'ui.cursorline.primary', 'ui.statusline' }, function(p, _)
-      return { bg = utils.is_dark(p) and '#2F323C' or '#E3E6ED' }
+      return { bg = utils.is_dark(p) and '#2F323C' or '#E3E6ED', fg = p.variable }
     end)
     :map_ui('NONE', 'diagnostic.hint', function(p, _)
       return { bg = p.inlay_hint.bg, fg = utils.is_dark(p) and '#50567C' or '#C8CACE' }
@@ -47,6 +53,13 @@ local function helix(h)
       return { fg = utils.is_dark(palette) and '#50567C' or '#C8CACE' }
     end)
     :map_ui('variable', { 'ui.linenr.selected', 'ui.text' })
+    :map_ui('NONE', 'ui.cursor', function(palette, _)
+      return { bg = palette.digit }
+    end)
+    :map_ui('NONE', 'ui.window', function(palette, _)
+      return { fg = palette.inlay_hint.fg, bg = palette.background }
+    end)
+    :map_ui('digit', 'ui.cursor.match')
 end
 
 local Palette = require('Eva-Theme.palette')
