@@ -1,44 +1,4 @@
-"ui.text.focus" = { bg = "#2F3F5C", fg = "#D7DAE0" }
-"ui.cursorline.primary" = { bg = "#2F323C", fg = "#B0B7C3" }
-"ui.statusline" = { bg = "#2F323C", fg = "#B0B7C3" }
-"diagnostic.hint" = { bg = "#343744", fg = "#50567C" }
-"diagnostic.info" = { fg = "#00b7cb", bg = "#233e4b" }
-"string" = { fg = "#98C379" }
-"diagnostic.warning" = { fg = "#EF973A", bg = "#463D3A" }
-"number" = { fg = "#FF9070" }
-"type" = { fg = "#56B7C3" }
-"property" = { fg = "#E06C75" }
-"comment" = { fg = "#676E95" }
-"diagnostic.unnecessary" = { fg = "#50567C" }
-"ui.selection" = { bg = "#394E75" }
-"ui.virtual.inlay-hint" = { fg = "#8A97C3", bg = "#343744" }
-"ui.linenr" = { fg = "#50567C" }
-"ui.linenr.selected" = { fg = "#B0B7C3" }
-"ui.text" = { fg = "#B0B7C3" }
-"ui.cursor" = { bg = "#FF9070" }
-"ui.window" = { fg = "#8A97C3", bg = "#282C34" }
-"ui.cursor.match" = { fg = "#FF9070" }
-"lsp.typemod.variable.definition.lua" = { fg = "#F02B77" }
-"lsp.type.property.lua" = []
-"attribute" = { fg = "#56B7C3" }
-"attribute.builtin" = { fg = "#56B7C3" }
-"constructor" = { fg = "#56B7C3" }
-"type.definition" = { fg = "#56B7C3" }
-"lsp.typemod.keyword.controlFlow.rust" = { fg = "#CF68E1" }
-"punctuation" = { fg = "#838FA7" }
-"function.builtin" = { fg = "#6495EE" }
-"function.method" = { fg = "#6495EE" }
-"function.method.call" = { fg = "#6495EE" }
-"function.macro" = { fg = "#6495EE" }
-"comment.todo" = { fg = "#6495EE" }
-"local.definition.function" = { fg = "#6495EE" }
-"local.definition.method" = { fg = "#6495EE" }
-"markup.link.label" = { fg = "#6495EE" }
-"constant" = { fg = "#FF9070" }
-"constant.builtin" = { fg = "#FF9070" }
-"constant.macro" = { fg = "#FF9070" }
-"number.float" = { fg = "#FF9070" }
-"local.definition.constant" = { fg = "#FF9070" }
+"module" = { fg = "#E06C75" }
 "string.special" = { fg = "#FF9070" }
 "keyword.import" = { fg = "#CF68E1" }
 "keyword.coroutine" = { fg = "#CF68E1" }
@@ -47,9 +7,9 @@
 "keyword.control" = { fg = "#CF68E1" }
 "keyword.control.return" = { fg = "#CF68E1" }
 "keyword.exception" = { fg = "#CF68E1" }
-"constant.builtin.javascript" = { fg = "#CF68E1" }
-"punctuation.special.javascript" = { fg = "#6495EE" }
-"lsp.type.namespace.javascript" = { fg = "#E06C75" }
+"keyword.conditional" = { fg = "#CF68E1" }
+"keyword.conditional.ternary" = { fg = "#CF68E1" }
+"keyword.operator" = { fg = "#CF68E1" }
 "punctuation.bracket" = { fg = "#838FA7" }
 "punctuation.delimiter" = { fg = "#838FA7" }
 "punctuation.special" = { fg = "#838FA7" }
@@ -57,38 +17,38 @@
 "tag" = { fg = "#E06C75" }
 "tag.builtin" = { fg = "#E06C75" }
 "variable.member" = { fg = "#E06C75" }
-"variable.other.member" = { fg = "#E06C75" }
+"function" = { fg = "#6495EE" }
 "local.definition.namespace" = { fg = "#E06C75" }
 "local.definition.var" = { fg = "#B0B7C3" }
 "variable.parameter" = { fg = "#E4BF7F" }
 "variable.parameter.builtin" = { fg = "#E4BF7F" }
 "local.definition.parameter" = { fg = "#E4BF7F" }
-"string.regexp" = { fg = "#E4BF7F" }
+"punctuation" = { fg = "#838FA7" }
 "type.builtin" = { fg = "#FF6AB3" }
 "label.markdown" = { fg = "#FF6AB3" }
 "keyword.directive.define" = { fg = "#A78CFA" }
 "namespace.builtin" = { fg = "#A78CFA" }
-"keyword.return.typescript" = { fg = "#CF68E1" }
-"keyword.conditional.typescript" = { fg = "#CF68E1" }
-"constant.builtin.typescript" = { fg = "#CF68E1" }
-"lsp.type.namespace.typescript" = { fg = "#E06C75" }
-"variable.member.typescript" = { fg = "#E06C75" }
+"keyword" = { fg = "#A78CFA" }
+"tag.delimiter.vue" = { fg = "#838FA7" }
+"keyword.type" = { fg = "#A78CFA" }
+"keyword.modifier" = { fg = "#A78CFA" }
+"variable.builtin" = { fg = "#F02B77" }
 "module.builtin" = { fg = "#F02B77" }
 "label" = { fg = "#98C379" }
 "string.special.path.diff" = { fg = "#98C379" }
 "string.special.url" = { fg = "#98C379" }
+"ui.statusline" = { bg = "#2F323C", fg = "#B0B7C3" }
 "string.special.path" = { fg = "#98C379" }
-"markup.link" = { fg = "#98C379" }
 "markup.link.url" = { fg = "#98C379" }
 "markup.raw" = { fg = "#98C379" }
 "markup.raw.block" = { fg = "#98C379" }
 "markup.list" = { fg = "#98C379" }
 "character" = { fg = "#98C379" }
-"string.documentation" = { fg = "#676E95" }
+"string.documentation" = { modifiers = [ "italic" ], fg = "#676E95" }
 "comment.note" = { fg = "#598DEF" }
 "comment.warning" = { fg = "#EF973A" }
 "comment.error" = { fg = "#F36464" }
-"comment.documentation" = { fg = "#676E95", modifiers = [ "italic" ] }
+"comment.documentation" = { modifiers = [ "italic" ], fg = "#676E95" }
 "string.escape" = { fg = "#8A97C3" }
 "character.special" = { fg = "#8A97C3" }
 "diff.minus.diff" = { fg = "#F14C4C" }
@@ -104,13 +64,53 @@
 "markup.heading.5" = { fg = "#E06C75" }
 "markup.heading.6" = { fg = "#E06C75" }
 "markup.italic" = { fg = "#C57BDB", modifiers = [ "italic" ] }
-"markup.strong" = { fg = "#E4BF7F", modifiers = [ "bold" ] }
-"string.special.url.html" = { fg = "#98C379" }
-"tag.delimiter.html" = { fg = "#838FA7" }
+"markup.strong" = { modifiers = [ "bold" ], fg = "#E4BF7F" }
+"markup.raw.block.markdown" = { fg = "#8792AA" }
+"module.c_sharp" = { fg = "#E06C75" }
+"lsp.type.namespace.cs" = { fg = "#E06C75" }
+"keyword.conditional.c_sharp" = { fg = "#CF68E1" }
+"constant.builtin.c_sharp" = { fg = "#CF68E1" }
+"lsp.type.enum.cs" = { fg = "#B0B7C3" }
+"attribute" = { fg = "#56B7C3" }
+"attribute.builtin" = { fg = "#56B7C3" }
+"constructor" = { fg = "#56B7C3" }
+"type.definition" = { fg = "#56B7C3" }
+"tag.attribute" = { fg = "#56B7C3" }
+"markup.list.markdown" = { fg = "#56B7C3" }
+"module.builtin.fsharp" = { fg = "#56B7C3" }
+"function.method" = { fg = "#6495EE" }
+"function.method.call" = { fg = "#6495EE" }
+"function.macro" = { fg = "#6495EE" }
+"comment.todo" = { fg = "#6495EE" }
+"local.definition.function" = { fg = "#6495EE" }
+"local.definition.method" = { fg = "#6495EE" }
+"markup.link.label" = { fg = "#6495EE" }
+"constant" = { fg = "#FF9070" }
+"constant.builtin" = { fg = "#FF9070" }
+"constant.macro" = { fg = "#FF9070" }
+"number.float" = { fg = "#FF9070" }
+"local.definition.constant" = { fg = "#FF9070" }
 "lsp.type.parameter" = { fg = "#E4BF7F" }
-"string.special.url.vue" = { fg = "#98C379" }
+"lsp.type.property" = { fg = "#E06C75" }
 "lsp.type.typeParameter" = { fg = "#E4BF7F" }
-"tag.delimiter.xml" = { fg = "#838FA7" }
+"keyword.conditional.lua" = { fg = "#CF68E1" }
+"keyword.repeat.lua" = { fg = "#CF68E1" }
+"keyword.return.lua" = { fg = "#CF68E1" }
+"keyword.operator.lua" = { fg = "#CF68E1" }
+"constant.builtin.lua" = { fg = "#CF68E1" }
+"function.macro.luadoc" = { fg = "#56B7C3" }
+"lsp.type.macro.lua" = { fg = "#56B7C3" }
+"punctuation.bracket.luadoc" = { fg = "#838FA7" }
+"punctuation.bracket.lua" = { fg = "#838FA7" }
+"constructor.lua" = { fg = "#838FA7" }
+"punctuation.special.luadoc" = { fg = "#838FA7" }
+"lsp.type.parameter.lua" = { fg = "#E4BF7F" }
+"function.builtin.lua" = { fg = "#6495EE" }
+"lsp.typemod.function.defaultLibrary.lua" = { fg = "#6495EE" }
+"variable.member.lua" = { fg = "#E06C75" }
+"lsp.mod.defaultLibrary.lua" = { fg = "#FF9070" }
+"lsp.typemod.variable.definition.lua" = { fg = "#F02B77" }
+"lsp.type.property.lua" = []
 "function.builtin.bash" = { fg = "#6495EE" }
 "lsp.typemod.struct.builtin.nix" = { fg = "#FF9070" }
 "function.builtin.nix" = { fg = "#6495EE" }
@@ -118,57 +118,57 @@
 "keyword.return.c" = { fg = "#CF68E1" }
 "keyword.conditional.c" = { fg = "#CF68E1" }
 "keyword.repeat.c" = { fg = "#CF68E1" }
-"keyword.return.lua" = { fg = "#CF68E1" }
-"module.rust" = { fg = "#E06C75" }
-"lsp.type.parameter.lua" = { fg = "#E4BF7F" }
-"function.builtin.lua" = { fg = "#6495EE" }
-"lsp.typemod.function.defaultLibrary.lua" = { fg = "#6495EE" }
-"markup" = { fg = "#838FA7" }
-"lsp.mod.defaultLibrary.lua" = { fg = "#FF9070" }
-"variable.builtin" = { fg = "#F02B77" }
-"lsp.typemod.variable.defaultLibrary.typescript" = { fg = "#FF9070" }
-"module.c_sharp" = { fg = "#E06C75" }
-"lsp.type.namespace.cs" = { fg = "#E06C75" }
-"keyword.conditional.c_sharp" = { fg = "#CF68E1" }
-"constant.builtin.c_sharp" = { fg = "#CF68E1" }
-"lsp.type.enum.cs" = { fg = "#B0B7C3" }
-"constant.builtin.lua" = { fg = "#CF68E1" }
-"keyword.conditional.lua" = { fg = "#CF68E1" }
-"keyword.function" = { fg = "#A78CFA" }
-"keyword" = { fg = "#A78CFA" }
-"keyword.operator" = { fg = "#CF68E1" }
-"keyword.conditional" = { fg = "#CF68E1" }
-"markup.list.markdown" = { fg = "#56B7C3" }
-"tag.delimiter.vue" = { fg = "#838FA7" }
-"punctuation.special.luadoc" = { fg = "#838FA7" }
-"constructor.lua" = { fg = "#838FA7" }
 "function.builtin.powershell" = { fg = "#6495EE" }
-"punctuation.special.typescript" = { fg = "#6495EE" }
-"constructor.typescript" = { fg = "#6495EE" }
-"tag.attribute" = { fg = "#56B7C3" }
-"module.builtin.fsharp" = { fg = "#56B7C3" }
-"variable_parameter.fsharp" = { fg = "#E4BF7F" }
-"function.macro.luadoc" = { fg = "#56B7C3" }
-"lsp.type.macro.lua" = { fg = "#56B7C3" }
-"lsp.type.typeAlias.rust" = { fg = "#56B7C3" }
-"keyword.repeat.lua" = { fg = "#CF68E1" }
-"keyword.operator.lua" = { fg = "#CF68E1" }
-"punctuation.bracket.lua" = { fg = "#838FA7" }
-"punctuation.bracket.luadoc" = { fg = "#838FA7" }
-"keyword.modifier" = { fg = "#A78CFA" }
-"keyword.type" = { fg = "#A78CFA" }
-"lsp.type.property" = { fg = "#E06C75" }
-"markup.raw.block.markdown" = { fg = "#8792AA" }
-"keyword.conditional.ternary" = { fg = "#CF68E1" }
-"boolean" = { fg = "#CF68E1" }
-"ui.background" = { bg = "#282C34" }
-"operator" = { fg = "#56B7C3" }
 "lsp.type.builtinType.rust" = { fg = "#FF6AB3" }
-"variable.member.lua" = { fg = "#E06C75" }
-"function" = { fg = "#6495EE" }
+"constant.builtin.javascript" = { fg = "#CF68E1" }
+"punctuation.special.javascript" = { fg = "#6495EE" }
+"lsp.type.namespace.javascript" = { fg = "#E06C75" }
+"tag.delimiter.xml" = { fg = "#838FA7" }
+"keyword.function" = { fg = "#A78CFA" }
+"constant.builtin.typescript" = { fg = "#CF68E1" }
+"keyword.conditional.typescript" = { fg = "#CF68E1" }
+"function.builtin" = { fg = "#6495EE" }
+"variable_parameter.fsharp" = { fg = "#E4BF7F" }
+"keyword.return.typescript" = { fg = "#CF68E1" }
+"lsp.type.namespace.typescript" = { fg = "#E06C75" }
+"variable.member.typescript" = { fg = "#E06C75" }
+"punctuation.special.typescript" = { fg = "#6495EE" }
+"lsp.typemod.variable.defaultLibrary.typescript" = { fg = "#FF9070" }
+"string.special.url.vue" = { fg = "#98C379" }
+"string.special.url.html" = { fg = "#98C379" }
+"tag.delimiter.html" = { fg = "#838FA7" }
+"module.rust" = { fg = "#E06C75" }
+"lsp.typemod.keyword.controlFlow.rust" = { fg = "#CF68E1" }
+"constructor.typescript" = { fg = "#6495EE" }
+"lsp.type.typeAlias.rust" = { fg = "#56B7C3" }
+"operator" = { fg = "#56B7C3" }
+"boolean" = { fg = "#CF68E1" }
+"string" = { fg = "#98C379" }
+"number" = { fg = "#FF9070" }
+"type" = { fg = "#56B7C3" }
+"ui.text" = { fg = "#B0B7C3" }
+"ui.linenr.selected" = { fg = "#B0B7C3" }
+"ui.menu.selected" = { bg = "#2F3F5C", fg = "#D7DAE0" }
+"ui.text.focus" = { bg = "#2F3F5C", fg = "#D7DAE0" }
+"ui.cursorline.primary" = { bg = "#2F323C", fg = "#B0B7C3" }
+"diagnostic.hint" = { bg = "#343744", fg = "#50567C" }
+"diagnostic.info" = { fg = "#00b7cb", bg = "#233e4b" }
+"diagnostic.warning" = { fg = "#EF973A", bg = "#463D3A" }
+"diagnostic.error" = { fg = "#F36464", bg = "#3D3037" }
+"diagnostic.unnecessary" = { fg = "#50567C" }
+"ui.selection" = { bg = "#394E75" }
+"ui.virtual.inlay-hint" = { fg = "#8A97C3", bg = "#343744" }
+"ui.linenr" = { fg = "#50567C" }
+"ui.cursor" = { bg = "#FF9070" }
+"ui.window" = { fg = "#8A97C3", bg = "#282C34" }
+"ui.cursor.match" = { fg = "#FF9070" }
+"ui.background" = { bg = "#282C34" }
 "ui.menu" = { bg = "#21252b", fg = "#B0B7C3" }
 "ui.text.info" = { bg = "#21252b", fg = "#B0B7C3" }
-"module" = { fg = "#E06C75" }
+"string.regexp" = { fg = "#E4BF7F" }
+"property" = { fg = "#E06C75" }
 "variable" = { fg = "#B0B7C3" }
-"diagnostic.error" = { fg = "#F36464", bg = "#3D3037" }
-"ui.menu.selected" = { bg = "#2F3F5C", fg = "#D7DAE0" }
+"comment" = { modifiers = [ "italic" ], fg = "#676E95" }
+"markup.link" = { fg = "#98C379" }
+"markup" = { fg = "#838FA7" }
+"variable.other.member" = { fg = "#E06C75" }
