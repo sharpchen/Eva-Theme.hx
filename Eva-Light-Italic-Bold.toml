@@ -1,190 +1,190 @@
-"markup" = { modifiers = [ "italic" ], fg = "#727376" }
-"keyword.control" = { modifiers = [ "italic" ], fg = "#C838C6" }
-"keyword.exception" = { modifiers = [ "bold", "italic" ], fg = "#C838C6" }
-"keyword.conditional.ternary" = { modifiers = [ "bold" ], fg = "#C838C6" }
-"keyword.operator" = { modifiers = [ "bold", "italic" ], fg = "#C838C6" }
-"punctuation.bracket" = { fg = "#727376" }
-"punctuation.delimiter" = { fg = "#727376" }
-"punctuation.special" = { fg = "#727376" }
-"tag.xml" = { fg = "#CD6069" }
-"tag" = { fg = "#CD6069" }
-"tag.builtin" = { fg = "#CD6069" }
-"variable.member" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"variable.other.member" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"local.definition.namespace" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"local.definition.var" = { modifiers = [ "italic" ], fg = "#5D5D5F" }
-"variable.parameter" = { modifiers = [ "italic" ], fg = "#F0AA0B" }
-"variable.parameter.builtin" = { modifiers = [ "italic" ], fg = "#F0AA0B" }
-"local.definition.parameter" = { modifiers = [ "italic" ], fg = "#F0AA0B" }
-"string.regexp" = { fg = "#F0AA0B" }
-"type.builtin" = { modifiers = [ "italic" ], fg = "#EF8ED8" }
-"label.markdown" = { modifiers = [ "italic" ], fg = "#EF8ED8" }
-"keyword.directive.define" = { modifiers = [ "bold", "italic" ], fg = "#7C4DFF" }
-"namespace.builtin" = { modifiers = [ "bold", "italic" ], fg = "#7C4DFF" }
-"keyword" = { modifiers = [ "bold", "italic" ], fg = "#7C4DFF" }
-"keyword.function" = { modifiers = [ "bold", "italic" ], fg = "#7C4DFF" }
-"keyword.modifier" = { modifiers = [ "bold", "italic" ], fg = "#7C4DFF" }
-"variable.builtin" = { modifiers = [ "bold", "italic" ], fg = "#FA278E" }
-"module.builtin" = { modifiers = [ "italic" ], fg = "#FA278E" }
-"label" = { modifiers = [ "italic" ], fg = "#53A053" }
-"string.special.path.diff" = { modifiers = [ "italic" ], fg = "#53A053" }
-"string.special.url" = { modifiers = [ "italic" ], fg = "#53A053" }
-"string.special.path" = { modifiers = [ "italic" ], fg = "#53A053" }
-"markup.link" = { modifiers = [ "italic" ], fg = "#53A053" }
-"markup.link.url" = { modifiers = [ "italic" ], fg = "#53A053" }
-"markup.raw" = { modifiers = [ "italic" ], fg = "#53A053" }
-"markup.raw.block" = { modifiers = [ "italic" ], fg = "#53A053" }
-"markup.list" = { modifiers = [ "italic" ], fg = "#53A053" }
-"character" = { modifiers = [ "italic" ], fg = "#53A053" }
-"boolean" = { modifiers = [ "bold", "italic" ], fg = "#C838C6" }
-"comment.note" = { modifiers = [ "italic" ], fg = "#4480F4" }
-"string" = { modifiers = [ "italic" ], fg = "#53A053" }
-"comment.error" = { modifiers = [ "italic" ], fg = "#E45454" }
-"comment.documentation" = { modifiers = [ "italic" ], fg = "#A9A9AA" }
-"string.escape" = { fg = "#888888" }
-"character.special" = { modifiers = [ "italic" ], fg = "#888888" }
-"diff.minus.diff" = { modifiers = [ "italic" ], fg = "#F14C4C" }
-"diff.minus" = { modifiers = [ "italic" ], fg = "#F14C4C" }
-"diff.plus.diff" = { modifiers = [ "italic" ], fg = "#40AD41" }
-"type" = { modifiers = [ "italic" ], fg = "#00BEC4" }
-"markup.heading" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"markup.heading.1" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"markup.heading.2" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"markup.heading.3" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"markup.heading.4" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"markup.heading.5" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"markup.heading.6" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"markup.raw.block.markdown" = { modifiers = [ "italic" ], fg = "#A0A1A7" }
-"markup.italic" = { modifiers = [ "italic" ], fg = "#C57BDB" }
-"markup.strong" = { modifiers = [ "bold", "italic" ], fg = "#F0AA0B" }
-"lsp.type.parameter" = { modifiers = [ "italic" ], fg = "#F0AA0B" }
-"lsp.type.property" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"lsp.type.typeParameter" = { modifiers = [ "italic" ], fg = "#F0AA0B" }
-"function.builtin.bash" = { modifiers = [ "italic" ], fg = "#437AED" }
-"punctuation.special.bash" = { modifiers = [ "italic" ], fg = "#437AED" }
-"variable.builtin.bash" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"variable.parameter.bash" = { modifiers = [ "italic" ], fg = "#53A053" }
-"operator" = { fg = "#00BEC4" }
-"markup.heading.html" = { modifiers = [ "italic" ], fg = "#5D5D5F" }
-"variable.css" = { modifiers = [ "italic" ], fg = "#F0AA0B" }
-"module" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"type.css" = { modifiers = [ "italic" ], fg = "#53A053" }
-"property.css" = { modifiers = [ "italic" ], fg = "#888888" }
-"operator.css" = { modifiers = [ "italic" ], fg = "#727376" }
-"module.builtin.fsharp" = { modifiers = [ "italic" ], fg = "#00BEC4" }
-"variable_parameter.fsharp" = { modifiers = [ "italic" ], fg = "#F0AA0B" }
-"tag.delimiter.vue" = { fg = "#727376" }
-"string.special.url.vue" = { modifiers = [ "italic" ], fg = "#53A053" }
-"keyword.conditional.lua" = { modifiers = [ "bold", "italic" ], fg = "#C838C6" }
-"keyword.repeat.lua" = { modifiers = [ "bold", "italic" ], fg = "#C838C6" }
-"keyword.return.lua" = { modifiers = [ "bold", "italic" ], fg = "#C838C6" }
-"attribute.builtin" = { modifiers = [ "italic" ], fg = "#00BEC4" }
-"constructor" = { modifiers = [ "bold", "italic" ], fg = "#00BEC4" }
-"type.definition" = { modifiers = [ "italic" ], fg = "#00BEC4" }
-"tag.attribute" = { modifiers = [ "italic" ], fg = "#00BEC4" }
-"markup.list.markdown" = { modifiers = [ "italic" ], fg = "#00BEC4" }
-"function.builtin" = { modifiers = [ "italic" ], fg = "#437AED" }
-"function.method" = { modifiers = [ "bold", "italic" ], fg = "#437AED" }
-"string.special" = { modifiers = [ "italic" ], fg = "#FF6D12" }
-"keyword.import" = { modifiers = [ "bold", "italic" ], fg = "#C838C6" }
-"keyword.coroutine" = { modifiers = [ "bold", "italic" ], fg = "#C838C6" }
-"keyword.repeat" = { modifiers = [ "bold", "italic" ], fg = "#C838C6" }
-"keyword.return" = { modifiers = [ "bold", "italic" ], fg = "#C838C6" }
-"lsp.mod.defaultLibrary.lua" = { modifiers = [ "italic" ], fg = "#FF6D12" }
-"keyword.control.return" = { modifiers = [ "italic" ], fg = "#C838C6" }
-"lsp.type.property.lua" = { modifiers = [ "italic" ] }
-"keyword.conditional" = { modifiers = [ "bold", "italic" ], fg = "#C838C6" }
-"attribute" = { modifiers = [ "italic" ], fg = "#00BEC4" }
-"local.definition.method" = { modifiers = [ "bold", "italic" ], fg = "#437AED" }
-"constant" = { modifiers = [ "italic" ], fg = "#FF6D12" }
-"constant.builtin" = { modifiers = [ "italic" ], fg = "#FF6D12" }
-"lsp.typemod.keyword.controlFlow.rust" = { modifiers = [ "bold", "italic" ], fg = "#C838C6" }
-"lsp.type.builtinType.rust" = { modifiers = [ "italic" ], fg = "#EF8ED8" }
-"lsp.type.typeAlias.rust" = { modifiers = [ "italic" ], fg = "#00BEC4" }
-"module.rust" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"keyword.return.c" = { modifiers = [ "italic" ], fg = "#C838C6" }
-"keyword.conditional.c" = { modifiers = [ "italic" ], fg = "#C838C6" }
-"keyword.repeat.c" = { modifiers = [ "italic" ], fg = "#C838C6" }
-"lsp.typemod.struct.builtin.nix" = { modifiers = [ "italic" ], fg = "#FF6D12" }
-"function.builtin.nix" = { modifiers = [ "italic" ], fg = "#437AED" }
-"lsp.typemod.constant.readonly.nix" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"constant.builtin.javascript" = { modifiers = [ "italic" ], fg = "#C838C6" }
-"punctuation.special.javascript" = { fg = "#437AED" }
-"lsp.type.namespace.javascript" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"module.c_sharp" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"lsp.type.namespace.cs" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"keyword.conditional.c_sharp" = { modifiers = [ "bold", "italic" ], fg = "#C838C6" }
-"constant.builtin.c_sharp" = { modifiers = [ "italic" ], fg = "#C838C6" }
-"lsp.type.enum.cs" = { modifiers = [ "italic" ], fg = "#5D5D5F" }
-"keyword.return.typescript" = { modifiers = [ "italic" ], fg = "#C838C6" }
-"keyword.conditional.typescript" = { modifiers = [ "italic" ], fg = "#C838C6" }
-"constant.builtin.typescript" = { modifiers = [ "italic" ], fg = "#C838C6" }
-"lsp.type.namespace.typescript" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"variable.member.typescript" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"constructor.typescript" = { modifiers = [ "italic" ], fg = "#437AED" }
-"punctuation.special.typescript" = { modifiers = [ "italic" ], fg = "#437AED" }
-"lsp.typemod.variable.defaultLibrary.typescript" = { modifiers = [ "italic" ], fg = "#FF6D12" }
-"local.definition.constant" = { modifiers = [ "italic" ], fg = "#FF6D12" }
-"function.method.call" = { modifiers = [ "bold", "italic" ], fg = "#437AED" }
-"diff.delta" = { modifiers = [ "italic" ], fg = "#9277E6" }
+"markup.heading" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"markup.heading.1" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"markup.heading.2" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"markup.heading.3" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"markup.heading.4" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"markup.heading.5" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"markup.heading.6" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"markup.italic" = { fg = "#C57BDB", modifiers = [ "italic" ] }
+"markup.strong" = { fg = "#F0AA0B", modifiers = [ "bold", "italic" ] }
+"markup.raw.block.markdown" = { fg = "#A0A1A7", modifiers = [ "italic" ] }
+"module.c_sharp" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"markup.raw" = { fg = "#53A053", modifiers = [ "italic" ] }
+"diff.plus" = { fg = "#40AD41", modifiers = [ "italic" ] }
+"keyword.conditional.c_sharp" = { fg = "#C838C6", modifiers = [ "bold", "italic" ] }
+"constant.builtin.c_sharp" = { fg = "#C838C6", modifiers = [ "italic" ] }
+"lsp.type.enum.cs" = { fg = "#5D5D5F", modifiers = [ "italic" ] }
+"string.special.url.html" = { fg = "#53A053", modifiers = [ "italic" ] }
+"markup.link.label.html" = { fg = "#53A053", modifiers = [ "italic" ] }
 "tag.delimiter.html" = { fg = "#727376" }
-"string.special.url.html" = { modifiers = [ "italic" ], fg = "#53A053" }
-"number.float" = { modifiers = [ "italic" ], fg = "#FF6D12" }
-"constant.macro" = { modifiers = [ "italic" ], fg = "#FF6D12" }
-"function.builtin.powershell" = { modifiers = [ "italic" ], fg = "#437AED" }
-"type.builtin.powershell" = { modifiers = [ "italic" ], fg = "#EF8ED8" }
-"ui.menu" = { fg = "#5D5D5F", bg = "#e1e4eb" }
-"ui.text.info" = { fg = "#5D5D5F", bg = "#e1e4eb" }
-"variable.parameter.builtin.powershell" = { modifiers = [ "italic" ], fg = "#C57BDB" }
-"variable" = { modifiers = [ "italic" ], fg = "#5D5D5F" }
-"keyword.type" = { modifiers = [ "bold", "italic" ], fg = "#7C4DFF" }
-"ui.menu.selected" = { fg = "#5D5D5F", bg = "#CAD7ED" }
-"ui.text.focus" = { fg = "#5D5D5F", bg = "#CAD7ED" }
-"local.definition.function" = { modifiers = [ "bold", "italic" ], fg = "#437AED" }
-"variable.builtin.vim" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"comment.todo" = { modifiers = [ "italic" ], fg = "#437AED" }
-"function.macro" = { modifiers = [ "bold", "italic" ], fg = "#437AED" }
-"ui.cursorline.primary" = { fg = "#5D5D5F", bg = "#E3E6ED" }
-"ui.statusline" = { fg = "#5D5D5F", bg = "#E3E6ED" }
-"constructor.lua" = { fg = "#727376" }
-"function" = { modifiers = [ "bold", "italic" ], fg = "#437AED" }
-"diagnostic.hint" = { fg = "#C8CACE", bg = "#e5e8ee" }
-"property" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"number" = { modifiers = [ "italic" ], fg = "#FF6D12" }
-"markup.link.label" = { modifiers = [ "italic" ], fg = "#437AED" }
-"diagnostic.info" = { bg = "#cde7f3", fg = "#00c1ea" }
-"tag.delimiter.xml" = { modifiers = [ "italic" ], fg = "#727376" }
-"variable.parameter.powershell" = { modifiers = [ "italic" ], fg = "#53A053" }
-"operator.powershell" = { modifiers = [ "italic" ], fg = "#C838C6" }
-"variable.builtin.powershell" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"diagnostic.warning" = { bg = "#E7DBD4", fg = "#FB942F" }
-"ui.background" = { bg = "#EBEEF5" }
-"keyword.modifier.css" = { modifiers = [ "italic" ], fg = "#FA278E" }
-"keyword.operator.lua" = { modifiers = [ "bold", "italic" ], fg = "#C838C6" }
-"comment" = { modifiers = [ "italic" ], fg = "#A9A9AA" }
-"diagnostic.error" = { bg = "#EBDAE0", fg = "#E45454" }
-"diff.plus" = { modifiers = [ "italic" ], fg = "#40AD41" }
-"string.documentation" = { modifiers = [ "italic" ], fg = "#A9A9AA" }
+"markup.heading.html" = { fg = "#5D5D5F", modifiers = [ "italic" ] }
+"variable.css" = { fg = "#F0AA0B", modifiers = [ "italic" ] }
+"keyword.modifier.css" = { fg = "#FA278E", modifiers = [ "italic" ] }
+"type.css" = { fg = "#53A053", modifiers = [ "italic" ] }
+"property.css" = { fg = "#888888", modifiers = [ "italic" ] }
+"operator.css" = { fg = "#727376", modifiers = [ "italic" ] }
+"module.builtin.fsharp" = { fg = "#00BEC4", modifiers = [ "italic" ] }
+"variable_parameter.fsharp" = { fg = "#F0AA0B", modifiers = [ "italic" ] }
+"keyword.conditional.lua" = { fg = "#C838C6", modifiers = [ "bold", "italic" ] }
+"keyword.repeat.lua" = { fg = "#C838C6", modifiers = [ "bold", "italic" ] }
+"keyword.return.lua" = { fg = "#C838C6", modifiers = [ "bold", "italic" ] }
+"keyword.operator.lua" = { fg = "#C838C6", modifiers = [ "bold", "italic" ] }
+"constant.builtin.lua" = { fg = "#C838C6", modifiers = [ "italic" ] }
+"function.macro.luadoc" = { fg = "#00BEC4", modifiers = [ "italic" ] }
+"lsp.type.macro.lua" = { fg = "#00BEC4", modifiers = [ "italic" ] }
+"punctuation.bracket.luadoc" = { fg = "#727376" }
 "punctuation.bracket.lua" = { fg = "#727376" }
-"punctuation" = { modifiers = [ "italic" ], fg = "#727376" }
+"constructor.lua" = { fg = "#727376" }
+"punctuation.special.luadoc" = { fg = "#727376" }
+"lsp.type.parameter.lua" = { fg = "#F0AA0B", modifiers = [ "italic" ] }
+"function.builtin.lua" = { fg = "#437AED", modifiers = [ "italic" ] }
+"lsp.typemod.function.defaultLibrary.lua" = { fg = "#437AED", modifiers = [ "bold", "italic" ] }
+"variable.member.lua" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"lsp.mod.defaultLibrary.lua" = { fg = "#FF6D12", modifiers = [ "italic" ] }
+"lsp.typemod.variable.definition.lua" = { fg = "#FA278E", modifiers = [ "bold", "italic" ] }
+"lsp.type.property.lua" = { modifiers = [ "italic" ] }
+"lsp.typemod.keyword.controlFlow.rust" = { fg = "#C838C6", modifiers = [ "bold", "italic" ] }
+"lsp.type.builtinType.rust" = { fg = "#EF8ED8", modifiers = [ "italic" ] }
+"lsp.type.typeAlias.rust" = { fg = "#00BEC4", modifiers = [ "italic" ] }
+"module.rust" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"constant.builtin.javascript" = { fg = "#C838C6", modifiers = [ "italic" ] }
+"punctuation.special.javascript" = { fg = "#437AED" }
+"lsp.type.namespace.javascript" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"keyword.return.typescript" = { fg = "#C838C6", modifiers = [ "italic" ] }
+"keyword.conditional.typescript" = { fg = "#C838C6", modifiers = [ "italic" ] }
+"constant.builtin.typescript" = { fg = "#C838C6", modifiers = [ "italic" ] }
+"lsp.type.namespace.typescript" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"variable.member.typescript" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"constructor.typescript" = { fg = "#437AED", modifiers = [ "italic" ] }
+"property" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"tag" = { fg = "#CD6069" }
+"lsp.type.property" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"keyword.repeat" = { fg = "#C838C6", modifiers = [ "bold", "italic" ] }
+"string.special" = { fg = "#FF6D12", modifiers = [ "italic" ] }
+"constant" = { fg = "#FF6D12", modifiers = [ "italic" ] }
+"punctuation.bracket" = { fg = "#727376" }
+"punctuation" = { fg = "#727376", modifiers = [ "italic" ] }
+"operator" = { fg = "#00BEC4" }
+"function" = { fg = "#437AED", modifiers = [ "bold", "italic" ] }
+"lsp.type.namespace.cs" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"ui.background" = { bg = "#EBEEF5" }
+"diff.plus.diff" = { fg = "#40AD41", modifiers = [ "italic" ] }
+"diff.minus" = { fg = "#F14C4C", modifiers = [ "italic" ] }
+"punctuation.special.typescript" = { fg = "#437AED", modifiers = [ "italic" ] }
+"lsp.typemod.variable.defaultLibrary.typescript" = { fg = "#FF6D12", modifiers = [ "italic" ] }
+"ui.menu" = { bg = "#e1e4eb", fg = "#5D5D5F" }
+"ui.text.info" = { bg = "#e1e4eb", fg = "#5D5D5F" }
+"attribute" = { fg = "#00BEC4", modifiers = [ "italic" ] }
+"variable" = { fg = "#5D5D5F", modifiers = [ "italic" ] }
+"type.definition" = { fg = "#00BEC4", modifiers = [ "italic" ] }
+"boolean" = { fg = "#C838C6", modifiers = [ "bold", "italic" ] }
+"ui.text.focus" = { bg = "#CAD7ED", fg = "#5D5D5F" }
+"string" = { fg = "#53A053", modifiers = [ "italic" ] }
+"tag.attribute" = { fg = "#00BEC4", modifiers = [ "italic" ] }
+"markup.list.markdown" = { fg = "#00BEC4", modifiers = [ "italic" ] }
+"keyword.return.c" = { fg = "#C838C6", modifiers = [ "italic" ] }
+"keyword.conditional.c" = { fg = "#C838C6", modifiers = [ "italic" ] }
+"ui.cursorline.primary" = { bg = "#E3E6ED", fg = "#5D5D5F" }
+"ui.statusline" = { bg = "#E3E6ED", fg = "#5D5D5F" }
+"number" = { fg = "#FF6D12", modifiers = [ "italic" ] }
+"type" = { fg = "#00BEC4", modifiers = [ "italic" ] }
+"keyword.repeat.c" = { fg = "#C838C6", modifiers = [ "italic" ] }
+"diagnostic.hint" = { bg = "#e5e8ee", fg = "#C8CACE" }
+"function.macro" = { fg = "#437AED", modifiers = [ "bold", "italic" ] }
+"comment.todo" = { fg = "#437AED", modifiers = [ "italic" ] }
+"local.definition.function" = { fg = "#437AED", modifiers = [ "bold", "italic" ] }
+"diagnostic.info" = { fg = "#00c1ea", bg = "#cde7f3" }
+"markup.link.label" = { fg = "#437AED", modifiers = [ "italic" ] }
+"variable.member" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"tag.builtin" = { fg = "#CD6069" }
+"tag.xml" = { fg = "#CD6069" }
+"diagnostic.warning" = { fg = "#FB942F", bg = "#E7DBD4" }
+"markup" = { fg = "#727376", modifiers = [ "italic" ] }
+"keyword.conditional" = { fg = "#C838C6", modifiers = [ "bold", "italic" ] }
+"keyword.exception" = { fg = "#C838C6", modifiers = [ "bold", "italic" ] }
+"keyword.control.return" = { fg = "#C838C6", modifiers = [ "italic" ] }
+"diagnostic.error" = { fg = "#E45454", bg = "#EBDAE0" }
+"keyword.control" = { fg = "#C838C6", modifiers = [ "italic" ] }
+"keyword.return" = { fg = "#C838C6", modifiers = [ "bold", "italic" ] }
+"local.definition.constant" = { fg = "#FF6D12", modifiers = [ "italic" ] }
+"number.float" = { fg = "#FF6D12", modifiers = [ "italic" ] }
 "diagnostic.unnecessary" = { fg = "#C8CACE" }
 "ui.selection" = { bg = "#B0CBF7" }
-"lsp.type.macro.lua" = { modifiers = [ "italic" ], fg = "#00BEC4" }
-"comment.warning" = { modifiers = [ "italic" ], fg = "#FB942F" }
-"ui.virtual.inlay-hint" = { bg = "#e5e8ee", fg = "#888888" }
+"constant.macro" = { fg = "#FF6D12", modifiers = [ "italic" ] }
+"constant.builtin" = { fg = "#FF6D12", modifiers = [ "italic" ] }
+"ui.virtual.inlay-hint" = { fg = "#888888", bg = "#e5e8ee" }
 "ui.linenr" = { fg = "#C8CACE" }
 "ui.linenr.selected" = { fg = "#5D5D5F" }
 "ui.text" = { fg = "#5D5D5F" }
 "ui.cursor" = { bg = "#FF6D12" }
-"punctuation.bracket.luadoc" = { fg = "#727376" }
-"ui.window" = { bg = "#EBEEF5", fg = "#888888" }
+"local.definition.method" = { fg = "#437AED", modifiers = [ "bold", "italic" ] }
+"ui.window" = { fg = "#888888", bg = "#EBEEF5" }
 "ui.cursor.match" = { fg = "#FF6D12" }
-"punctuation.special.luadoc" = { fg = "#727376" }
-"lsp.type.parameter.lua" = { modifiers = [ "italic" ], fg = "#F0AA0B" }
-"function.builtin.lua" = { modifiers = [ "italic" ], fg = "#437AED" }
-"lsp.typemod.function.defaultLibrary.lua" = { modifiers = [ "bold", "italic" ], fg = "#437AED" }
-"variable.member.lua" = { modifiers = [ "italic" ], fg = "#CD6069" }
-"lsp.typemod.variable.definition.lua" = { modifiers = [ "bold", "italic" ], fg = "#FA278E" }
-"markup.link.label.html" = { modifiers = [ "italic" ], fg = "#53A053" }
-"constant.builtin.lua" = { modifiers = [ "italic" ], fg = "#C838C6" }
-"function.macro.luadoc" = { modifiers = [ "italic" ], fg = "#00BEC4" }
+"function.method.call" = { fg = "#437AED", modifiers = [ "bold", "italic" ] }
+"function.method" = { fg = "#437AED", modifiers = [ "bold", "italic" ] }
+"function.builtin" = { fg = "#437AED", modifiers = [ "italic" ] }
+"constructor" = { fg = "#00BEC4", modifiers = [ "bold", "italic" ] }
+"attribute.builtin" = { fg = "#00BEC4", modifiers = [ "italic" ] }
+"variable.parameter.bash" = { fg = "#53A053", modifiers = [ "italic" ] }
+"variable.builtin.bash" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"punctuation.special.bash" = { fg = "#437AED", modifiers = [ "italic" ] }
+"function.builtin.bash" = { fg = "#437AED", modifiers = [ "italic" ] }
+"lsp.type.typeParameter" = { fg = "#F0AA0B", modifiers = [ "italic" ] }
+"diff.delta" = { fg = "#9277E6", modifiers = [ "italic" ] }
+"tag.delimiter.xml" = { fg = "#727376", modifiers = [ "italic" ] }
+"variable.parameter.powershell" = { fg = "#53A053", modifiers = [ "italic" ] }
+"variable.parameter.builtin.powershell" = { fg = "#C57BDB", modifiers = [ "italic" ] }
+"operator.powershell" = { fg = "#C838C6", modifiers = [ "italic" ] }
+"variable.builtin.powershell" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"type.builtin.powershell" = { fg = "#EF8ED8", modifiers = [ "italic" ] }
+"function.builtin.powershell" = { fg = "#437AED", modifiers = [ "italic" ] }
+"module" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"ui.menu.selected" = { bg = "#CAD7ED", fg = "#5D5D5F" }
+"keyword.operator" = { fg = "#C838C6", modifiers = [ "bold", "italic" ] }
+"comment" = { fg = "#A9A9AA", modifiers = [ "italic" ] }
+"keyword.coroutine" = { fg = "#C838C6", modifiers = [ "bold", "italic" ] }
+"tag.delimiter.vue" = { fg = "#727376" }
+"string.special.url.vue" = { fg = "#53A053", modifiers = [ "italic" ] }
+"punctuation.special" = { fg = "#727376" }
+"punctuation.delimiter" = { fg = "#727376" }
+"variable.builtin.vim" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"lsp.type.parameter" = { fg = "#F0AA0B", modifiers = [ "italic" ] }
+"keyword.conditional.ternary" = { modifiers = [ "bold" ], fg = "#C838C6" }
+"keyword.import" = { fg = "#C838C6", modifiers = [ "bold", "italic" ] }
+"variable.other.member" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"local.definition.namespace" = { fg = "#CD6069", modifiers = [ "italic" ] }
+"local.definition.var" = { fg = "#5D5D5F", modifiers = [ "italic" ] }
+"variable.parameter" = { fg = "#F0AA0B", modifiers = [ "italic" ] }
+"variable.parameter.builtin" = { fg = "#F0AA0B", modifiers = [ "italic" ] }
+"local.definition.parameter" = { fg = "#F0AA0B", modifiers = [ "italic" ] }
+"string.regexp" = { fg = "#F0AA0B" }
+"type.builtin" = { fg = "#EF8ED8", modifiers = [ "italic" ] }
+"label.markdown" = { fg = "#EF8ED8", modifiers = [ "italic" ] }
+"keyword.directive.define" = { fg = "#7C4DFF", modifiers = [ "bold", "italic" ] }
+"namespace.builtin" = { fg = "#7C4DFF", modifiers = [ "bold", "italic" ] }
+"keyword" = { fg = "#7C4DFF", modifiers = [ "bold", "italic" ] }
+"keyword.function" = { fg = "#7C4DFF", modifiers = [ "bold", "italic" ] }
+"keyword.type" = { fg = "#7C4DFF", modifiers = [ "bold", "italic" ] }
+"keyword.modifier" = { fg = "#7C4DFF", modifiers = [ "bold", "italic" ] }
+"variable.builtin" = { fg = "#FA278E", modifiers = [ "bold", "italic" ] }
+"module.builtin" = { fg = "#FA278E", modifiers = [ "italic" ] }
+"label" = { fg = "#53A053", modifiers = [ "italic" ] }
+"string.special.path.diff" = { fg = "#53A053", modifiers = [ "italic" ] }
+"string.special.url" = { fg = "#53A053", modifiers = [ "italic" ] }
+"string.special.path" = { fg = "#53A053", modifiers = [ "italic" ] }
+"markup.link" = { fg = "#53A053", modifiers = [ "italic" ] }
+"markup.link.url" = { fg = "#53A053", modifiers = [ "italic" ] }
+"markup.raw.block" = { fg = "#53A053", modifiers = [ "italic" ] }
+"markup.list" = { fg = "#53A053", modifiers = [ "italic" ] }
+"character" = { fg = "#53A053", modifiers = [ "italic" ] }
+"string.documentation" = { fg = "#A9A9AA", modifiers = [ "italic" ] }
+"comment.note" = { fg = "#4480F4", modifiers = [ "italic" ] }
+"comment.warning" = { fg = "#FB942F", modifiers = [ "italic" ] }
+"comment.error" = { fg = "#E45454", modifiers = [ "italic" ] }
+"comment.documentation" = { fg = "#A9A9AA", modifiers = [ "italic" ] }
+"string.escape" = { fg = "#888888" }
+"character.special" = { fg = "#888888", modifiers = [ "italic" ] }
+"diff.minus.diff" = { fg = "#F14C4C", modifiers = [ "italic" ] }
+"lsp.typemod.struct.builtin.nix" = { fg = "#FF6D12", modifiers = [ "italic" ] }
+"function.builtin.nix" = { fg = "#437AED", modifiers = [ "italic" ] }
+"lsp.typemod.constant.readonly.nix" = { fg = "#CD6069", modifiers = [ "italic" ] }
